@@ -13,23 +13,23 @@ const Hero = () => {
     <div className="relative z-10 flex flex-col items-center">
         <Image 
         src="/images/eu.jpg" 
-        alt="Heroimage" 
+        alt="Imagem de perfil de Thalyson"
         width={150} 
         height={150} 
         className="rounded-full border-8 border-[#0c0c48aa]" 
         />
         <h1 className="text-2xl sm:text-4xl md:text-5xl lg:text-6xl mt-6 text-center font-bold tracking-wide">
-            Creating web products, <br /> brands, 
-            <span className="text-cyan-200"> and  experiences.</span>
+            Construindo projetos web enquanto desenvolvo minha formação em
+            <span className="text-cyan-200"> Engenharia de Software.</span>
         </h1>
         <h2 className="mt-5 text-sm px-2 text-center sm:text-2xl font-medium flex items-center">
-            Hi! I'm Thalyson - A Passionate
+            Olá! Sou Thalyson, estudante de
             <span className="text-cyan-200 font-bold">
                 <Typewriter options={{
                     strings:[
-                        ' Frontend Developer',
-                        ' Backend Developer',
-                        ' Web Developer'
+                        ' Engenharia de Software',
+                        ' desenvolvimento frontend',
+                        ' desenvolvimento backend'
                     ],
                     autoStart: true,
                     loop: true,
@@ -39,10 +39,10 @@ const Hero = () => {
                 }} />
             </span>
         </h2>
-        <button className="mt-6 px-10 py-4 bg-blue-800 hover:bg-blue-900 transition-all duration-300 cursor-pointer rounded-full text-lg font-medium">
-            <span>See my work</span>
+        <a href="https://github.com/Thalyson-Felicio?tab=repositories" target="_blank" rel="noreferrer" className="mt-6 px-10 py-4 bg-blue-800 hover:bg-blue-900 transition-all duration-300 cursor-pointer rounded-full text-lg font-medium">
+            <span>Ver meus projetos</span>
             <BsArrowRight className="w-5 h-5 ml-2 inline-block" />
-        </button>
+        </a>
     </div> 
   </div>
 }

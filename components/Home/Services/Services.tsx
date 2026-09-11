@@ -4,35 +4,35 @@ import ServicesCard from './ServicesCard';
 const Services = () => {
   return <div className="pt-16 pb-16">
     <h1 className="text-center  text-2xl md:text-4xl xl:text-5xl font-bold text-white">
-        Colleborate with brand <br /> and agencies to create <br /> impactful results
+        Tecnologias e áreas de <br /> desenvolvimento em estudo
     </h1>
     <div className="w-[90%] sm:w-[70%] mx-auto grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-10 mt-20 items-center">
         <div>
             <ServicesCard 
             icon="/images/s1.png" 
-            name="UI and UX" 
-            description="Designing interfaces that are intuitive, efficient, and  enjoyable to use." 
+            name="Interfaces web"
+            description="Construção de interfaces com React, Next.js e componentes reutilizáveis."
             />
         </div>
         <div>
             <ServicesCard 
             icon="/images/s2.png" 
-            name="Web an Mobile App" 
-            description="Designing interfaces that are intuitive, efficient, and  enjoyable to use." 
+            name="Aplicações React"
+            description="Prática com Vite, React Router e navegação entre páginas."
             />
         </div>
         <div>
             <ServicesCard 
             icon="/images/s3.png" 
-            name="Design & Creative" 
-            description="Designing interfaces that are intuitive, efficient, and  enjoyable to use." 
+            name="APIs e dados"
+            description="Desenvolvimento de APIs com Node.js, Express e MongoDB."
             />
         </div>
         <div>
             <ServicesCard 
             icon="/images/s4.png" 
-            name="Development" 
-            description="Designing interfaces that are intuitive, efficient, and  enjoyable to use." 
+            name="Testes e documentação"
+            description="Estudo de estratégias de teste e modelagem com Mermaid e PlantUML."
             />
         </div>
     </div>
